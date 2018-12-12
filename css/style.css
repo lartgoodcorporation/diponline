@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+@media only screen and (min-width: 768px){
+  html, body {
+    height: 100%;
+    margin: 0px; 
+    background-color: #e6e3e9;
+    background-image: url('https://images.unsplash.com/photo-1468070454955-c5b6932bd08d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0d1f750feccaa5e8f5943723ae144f0c&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    background-position: 100%;
+    padding-bottom: 55%;
+  }
+}
+
+.container {
+  background: #e6e3e9;
+  opacity: 0.95;
+  width: 70rem;
+  margin-top: 0px;
+}
+
+.container .dataBox {
+  background: #e6e3e9;
+  opacity: 0.95;
+}
+
+.container .footerBox {
+  margin-top: 1rem;
+  background: #795b8f;
+  padding-bottom: 3rem;
+}
+
+.tabs{
+  background: transparent;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.font{
+  width: 100%;
+  margin: 0px;
+}
+
+.i{
+  line-height: 1.5;
+}
+
+.input{
+  margin-left: 2.5rem;
+  line-height: 0.9em;
+  width: 5rem;
+  
+}
+
+.sign{
+  padding-top: 1rem;
+  font-family: 'Lato', sans-serif;
+  color: #8a7699;
+  text-align: center;
+}
+
+.sign > a:visited{
+  color: #ac89c5;
+}
+
+.sign > a:active{
+  color:  #6e577e;
+}
+
+.sign > a:focus{
+  color:  #6e577e;
+}
+
+.content > h1 {
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.profilForm .container{
+  margin-top: 3rem;
+  background: #795b8f;
+}
+
+.news_title {
+  font-family: 'Fjalla One', sans-serif;
+  padding: 3px 0px;
+  font-size: 2rem;
+  color: #978ca0;
+}
+
+.newBox {
+  width: 100%;
+}
+
+.newBox .container {
+  margin: 1rem;
+  width: 100%;
+  opacity: 0.90;
+  padding: 1rem 2rem 1rem;
+  border: #fbf5ff solid 7px;
+}
+
+.post {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1rem;
+  color: #3e3347;
+  margin-top: 4rem;
+  margin-left: 90%;
+}
+
+
+
+.news_content {
+  font-family: 'Fjalla One', sans-serif;
+  margin: 2rem 4rem;
+  font-size: 1rem;
+  color: #3e3347;
+  height: 100%;
+}
+
+.new_block > a {
+  padding: 0px 10px;
+  margin: 0rem 2rem;
+  margin-left: 15%;
+}
+
+#newEditForm .btn {
+  margin-left: 40%;
+}
+
+@media only screen and (max-width: 768px)
+{
+  html, body {
+    height: 100%;
+     margin-bottom: 0px; 
+     background-color: #e6e3e9;
+     background-image: url('https://images.unsplash.com/photo-1468070454955-c5b6932bd08d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0d1f750feccaa5e8f5943723ae144f0c&auto=format&fit=crop&w=750&q=80');
+     background-size: cover;
+     background-position: 100%;
+    }
+
+  .content {
+      padding: 2rem 2rem;
+      background-color: #e6e3e9;
+      opacity: 0.90;
+      margin: 4rem 0.5rem 10rem;
+    }
+
+    .content > h1 {
+      font-size: 3rem;
+    }
+
+  .container {
+    background: #e6e3e9;
+    opacity: 0.95;
+    width: 40rem;
+    margin-top: 0px;
+  }
+  
+  .container .dataBox {
+    background: #e6e3e9;
+    opacity: 0.95;
+    width: 95%;
+    padding-bottom: 10%;
+  }
+
+  .dataBox .row {
+    width: 100%;
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+  .signFrm{
+    padding: 2rem 0rem 2rem;
+    margin: 2rem 0.2rem 10rem;
+    background-color: #e6e3e9;
+    opacity: 0.90;
+  }
+
+  .sign > a {
+    font-size: 2.5rem;
+  }
+
+  .row {
+    padding: 0rem 1rem;
+    margin-bottom: 0.5;
+    }
+
+  .intro {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
+  }
+
+  .nav-wrapper{
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #b694ce;
+    padding: 0 0rem;
+    width: 40rem;
+  }
+
+  .nav-wrapper .brand-logo {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .page-footer{
+    background-color: #795b8f;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height: 20%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+  }
+
+  td{
+    border-radius: 1px;
+  }
+
+  table{
+    width: 15rem;
+  }
+
+  .row{
+    margin-bottom: 0px;
+  }
+
+  .box {
+    height: 30%;
+    padding: 10px; /* Поля */
+    border-width: 8px;
+    border: #fbf5ff solid 7px;
+  }
+
+  .box .btn {
+    margin-left: 4rem;
+  }
+
+  .btn {
+    padding: 2px 3px;
+  }
+
+  #mobile-demo {
+    background-image: url('https://images.unsplash.com/photo-1526941800891-91c55e0f7e41?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c1c6d13a9aea0c456c70ae627aab94b7&auto=format&fit=crop&w=334&q=80');
+    background-color: #bda9ce;
+    opacity: 0.95;
+  }
+
+  .nav-wrapper ul a {
+    font-size: 3rem;
+    padding: 1rem 1rem 1rem;
+    margin-bottom: 2rem;
+    color: #eeddff;
+    font-family: 'Fjalla One', sans-serif;
+  }
+
+}
+
+@media only screen and (min-width: 768px)
+{
+  .page-footer{
+    background-color: #795b8f;
+    
+    bottom:0;
+    width:100%;
+   
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+  }
+
+  .nav-wrapper ul a{
+    font-size: 1.5rem;
+  }
+
+  .profil_form .container {
+    width: 100%;
+    margin: 2rem 0rem;
+    padding: 30px 1rem;
+  }
+
+  .studBox {
+    width: 26rem; /* Ширина блока */
+    padding: 10px; /* Поля */
+    border-width: 8px;
+    border: #fbf5ff solid 7px;
+  }
+
+  .studBox .btn {
+    margin-left: 30%;
+  }
+
+  .box {
+    width: 26rem; /* Ширина блока */
+    height: 70%;
+    padding: 10px; /* Поля */
+    border-width: 8px;
+    border: #fbf5ff solid 7px;
+  }
+
+  .content {
+    padding: 1.5rem 3rem;
+    background-color: #e6e3e9;
+    opacity: 0.90;
+    margin-top: 2rem;
+    width: 65%;
+    text-align: left;
+  }
+
+  .signFrm{
+    padding: 2rem 3rem;
+    background-color: #e6e3e9;
+    opacity: 0.90;
+    margin-top: 2rem;
+    width: 45%;
+  }
+
+  .row {
+    padding: 0rem 2.4rem;
+    margin-bottom: 0;
+  }
+
+  .intro {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+    margin-top: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .addUser {
+    margin: 4px 80px;
+    padding: 10px 70px;
+  }
+
+  .editUser {
+    margin: 10px 90px;
+    padding: 10px 80px;
+  }
+
+  td{
+    border-radius: 1px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  table .row {
+    padding-bottom: 3rem; 
+  }
+
+  .row {
+    margin-bottom: 20px;
+  }
+
+  .nav-wrapper .brand-logo {
+    font-size: 2.6rem;
+  }
+
+  .nav-wrapper{
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #b694ce;
+    padding: 0 2rem;
+  }
+
+  .row .col.m10 {
+    width: 83.3333333333%;
+    margin-left: 3rem;
+    left: auto;
+    right: auto;
+  }
+
+  .box .btn {
+    margin-left: 11rem;
+  }
+}
+
+.tabs{
+  margin: 3px 0px 0px 0px;
+}
+
+.btn{
+  margin-top: 1rem;
+  background-color: #685277;
+  width: 9rem;
+  text-align: center;
+  padding: 0;
+}
+
+td, th{
+  color: #513d5e;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.btn:hover{
+  background-color: #c1a8d1;
+}
+
+@media only screen and (min-width: 993px)
+{
+  .profil_form .container {
+      width: 100%;
+      margin: 2rem 0rem;
+      padding: 30px 1rem;
+  }
+
+  .container .row{
+    padding: 0px 1rem;
+  }
+}
+
+.container .row {
+  padding: 1rem 2rem;
+}
+
+.a {
+  color: #ac89c5;
+}
+
+.row .col.offset-s2,
+.row .col.s10 {
+  margin-left: 0;
+  width: 100%;
+}
+
+.user_icon{
+margin-bottom: 4rem;
+font-family: 'Fjalla One', fantasy;
+font-size: 2rem;
+color: #978ca0;
+}
+
+img{
+  margin-bottom: 10px;
+}
+
+.btn-floating {
+  margin-top: 5px;
+}
+
+.task_form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20rem;
+  margin-top: 20px;
+}
+
+.task_form > div {
+  width: 50%;
+  margin-bottom: 16px;
+}
+
+.studentData {
+padding: 3px 0px;
+font-size: 1.2rem;
+color: #978ca0;
+}
