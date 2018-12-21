@@ -9,7 +9,7 @@
                             <a href="logout.php" id="logout">LogOut</a>
                         </li>
                     </ul>
-                    <a href="#" class="brand-logo center">DepOnline</a>
+                    <a href="#" class="brand-logo center">CursachMaker</a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse">
                         <i class="material-icons">menu</i>
                     </a>

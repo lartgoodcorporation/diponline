@@ -1,9 +1,9 @@
 <?php
 //lCzxZGRFX8
   $servername = "localhost";
-  $username = "id8213147_admin";
-  $password = "admin";
-  $dbname = "id8213147_bestfuckingdb";
+  $username = "admin_kafedra";
+  $password = "pass";
+  $dbname = "admin_kafedra";
 
 
 

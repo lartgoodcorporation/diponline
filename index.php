@@ -11,12 +11,17 @@ require_once 'header.php';
 
     <div class="row" align="center">
         <div class="col xl12 m12 l12 s12">
-
-            <div id="info_block" class="content">
-                <h1>MyProject</h1>
+        <div id="info_block" class="content">
+                <h1>CursachMaker</h1>
                 <p class="intro">
-                let's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text herelet's say the text here
+                <i>
+                "A site for giftedly progressive programmers whose life will never be the same because they know the dark side of University"
+                </i>
                 </p>
+                It is here that you can get information about course and diploma design. Students have the opportunity to get acquainted
+                with a list of topics for term papers, coursework and diploma projects. Every student has the opportunity to register
+                and apply online on one or another topic. And the leaders decide on which student to fix a topic.
+                This service is intended to facilitate the process of finding and selecting topics for students.
                 <button class="waves-effect waves-light btn" id="get_form">Enter</button>
             </div>
 

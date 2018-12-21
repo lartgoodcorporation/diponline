@@ -48,6 +48,13 @@ if (!empty($_POST['firstname']) && !empty($_POST['lastname']) && !empty($_POST['
     } else {
       return false;
     }
+  }elseif (!!$user) {
+    $_SESSION['user'] = $user;
+    header('Location: index.php');
+    exit();
+  } else {
+    $_SESSION['user'] = FALSE;
+    header('Location: index.php');
   }
   }else {
     $_SESSION['user'] = FALSE;
